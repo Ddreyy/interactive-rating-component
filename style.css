@@ -1,0 +1,252 @@
+*{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 12%;
+    background-color: #17191f;
+} 
+
+.card-1{
+    border-radius: 25px;
+    background-color: #09111C;
+    padding: 5% 2%;
+    height: 35vh;
+    width: 20%;
+}
+
+.star{
+    border: solid 2px  #132030;
+    border-radius: 50%;
+    color: #FF9529;
+    margin-top: -30px;
+    width: 20px;
+    padding: 3px;
+}
+
+h1{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+p{
+    color: #6F757C;
+    font-size: 12px;
+    margin-top: 20px;
+    
+}
+
+.btn-number{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #09111C;
+    color:  #6F757C;
+    background-color: #0c1624;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+    
+}
+
+
+.btn-number:hover{
+    background-color: #FF9529;
+}
+
+.btn-number:hover:focus{
+    background-color: #6F757C;
+    color: #09111C;
+
+    
+}
+
+
+
+.btn{
+    margin-top: 20px;
+    padding: 3% 37%;
+    border: 1px solid #09111C;
+    text-align: center;
+    justify-content: center;
+    border-radius: 75px;
+    background-color: #FF9529;
+    color: rgb(241, 221, 221);
+    font-size: 13px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    color: #FF9529;
+    background-color: #fff;
+    cursor: pointer;
+    transform: translate(0.5s)
+}
+
+
+
+
+
+/* thank you section */
+
+.card-2{
+    
+    border-radius: 25px;
+    background-color: #09111C;
+    padding: 5% 2%;
+    height: 35vh;
+    width: 21%;
+    text-align: center;
+    display: inline;
+    
+}
+.hide-card2{
+    display: none;
+}
+
+img.illustration{
+    box-sizing: border-box;
+    width: 90px;
+    margin-top: -20px;
+    background-color: black;
+    color: black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+
+
+.move{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+        
+    
+}
+.select{
+    border: solid 1px #0c1520;
+    border-radius: 75px;
+    font-weight: 100;
+    color: #FF9529;
+    background-color: #132030;
+    margin: 5% 25%;
+    align-items: center;
+    width: 130px;
+    padding: 3% 0%;
+    border-width: inherit;
+}
+
+.rating{
+    padding: 3% 40%;
+    border: 1px solid #09111C;
+    text-align: center;
+    justify-content: center;
+    border-radius: 75px;
+    background-color: #FF9529;
+    color: rgb(241, 221, 221);
+    font-size: 13px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.rating:hover{
+    color: #FF9529;
+    background-color: #fff;
+    cursor: pointer;
+    transform: translate(0.5s)
+}
+
+
+
+/* ....media query...... */
+/* on mobile phones */
+@media only screen and (max-width : 800px){
+
+    .card-1{
+        padding: 5% 2%;
+        height: 37vh;
+        width: 60%;
+        max-width: 100%;
+    }
+    .star{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 20px;
+        padding-right: 3px;
+    }
+    h1{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    p{
+        display: block;
+        font-size: 17px;
+        margin-left: 8px;
+        inline-size: auto;
+        font-weight: 100;
+    
+    }
+
+    .btn-number{
+        margin: 3% 3%;
+        display:inline-block;
+        height: 43px;
+        width: 40px;
+    }
+
+    .btn{
+        margin: 8% 4%;
+        padding: 4% 35%;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+
+    .card-2{
+        padding: 5% 2%;
+        height: 37vh;
+        width: 60%;
+        max-width: 100%;
+       
+    }
+
+    img.illustration{
+        margin: 1% 3%;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .select{
+        font-weight: 150;
+        border: solid 1px #0c1520;
+        border-radius: 75px;
+        width: 200px;
+        text-align: center;
+        margin: 5% 19%;
+        color: #FF9529;
+        background-color: #132030;
+        font-size: 16px;
+        padding: 3% 1%;
+
+    }
+
+    
+}
+
+
+

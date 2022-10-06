@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rating component</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2e794bd3aa.js" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+        <div class="card-1 ">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+                <h1>How did we do?</h1>
+                <p>Please let us know how we did with your support
+                request. All feedback is appreciated to help us
+                improve our offering! </p>
+                
+                <button type="button" class="btn-number">1</button>
+                <button type="button" class="btn-number">2</button>
+                <button type="button" class="btn-number">3</button>
+                <button type="button" class="btn-number">4</button>
+                <button type="button" class="btn-number">5</button>   
+            </div>
+            <button class="btn submit" id="submitButton">SUBMIT</button>
+        </div>
+
+        <div class="card-2 hide-card2">
+
+            <img src="images/illustration1.jpg" class="illustration">
+            <div class="move">
+                <p class="select">You selected <span class="output"></span> out of 5</p>
+                <h1 class="thank">Thank You!</h1>
+
+            </div>
+            
+           <p>We appreciate you taking the time to give a rating.
+            if you ever need more support, dont hesitate to 
+            get in touch!</p>
+            
+        </div>
+
+
+        
+
+        <script src="action.js"></script>
+    </body>
+</html>
