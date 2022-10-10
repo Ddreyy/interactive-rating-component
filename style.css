@@ -17,8 +17,8 @@ body{
     border-radius: 25px;
     background-color: #09111C;
     padding: 5% 2%;
-    height: 35vh;
-    width: 20%;
+    height: 32vh;
+    width: 22%;
 }
 
 .star{
@@ -32,15 +32,16 @@ body{
 
 h1{
     color: #fff;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 20px;
     margin-top: 30px;
 }
 
 p{
     color: #6F757C;
-    font-size: 12px;
+    font-size: 12.5px;
     margin-top: 20px;
+    line-height: 19px;
     
 }
 
@@ -75,7 +76,7 @@ p{
 
 
 .btn{
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 3% 37%;
     border: 1px solid #09111C;
     text-align: center;
@@ -106,7 +107,7 @@ p{
     border-radius: 25px;
     background-color: #09111C;
     padding: 5% 2%;
-    height: 35vh;
+    height: 32vh;
     width: 21%;
     text-align: center;
     display: inline;
@@ -119,7 +120,7 @@ p{
 img.illustration{
     box-sizing: border-box;
     width: 90px;
-    margin-top: -20px;
+    margin-top: -45px;
     background-color: black;
     color: black;
     border-radius: 50%;
@@ -142,10 +143,10 @@ img.illustration{
     font-weight: 100;
     color: #FF9529;
     background-color: #132030;
-    margin: 5% 25%;
+    margin: 5% 14%;
     align-items: center;
-    width: 130px;
-    padding: 3% 0%;
+    width: 200px;
+    padding: 2% 0%;
     border-width: inherit;
 }
 
@@ -225,7 +226,7 @@ img.illustration{
     }
 
     img.illustration{
-        margin: 1% 3%;
+        margin: 1% 5%;
         text-align: center;
         justify-content: center;
     }
